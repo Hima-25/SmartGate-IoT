@@ -26,13 +26,6 @@ SmartGate-IoT is a scaled IoT demonstration project that showcases an automated 
 - ✅ **Raspberry Pi demo (rpi/alpr.py):** Camera (Picamera2), plate OCR, gate/servo control; optional live view via Gate Live dashboard (port 5001)
 - ⏳ **Image Capture / Barrier Control in main app:** Not integrated in `main.py` (main app uses mock sensor only); camera and gate exist in Pi demo and contrib
 
-## 🔗 Important Links
-- 📄 Project Documentation (Confluence): https://aishwaryavb.atlassian.net/wiki/spaces/IP/overview?homepageId=9437389
-- 📋 Kanban Board (Jira): https://aishwaryavb.atlassian.net/jira/software/projects/KAN/boards/1
-- ⏱ Timesheet: https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/51791953965/CourseNode/1630981630155929010/template-time-sheet.xlsx
-- 🎤 Presentations & Slides: 
-- 🧠 Architecture Diagrams (Miro / draw.io): 
-- 📁 Shared Drive / Assets: https://docs.google.com/spreadsheets/d/19PhfY0BA-zd2jdC-9sQXwtUukbKMdTmX4n_z6MjDqkY/edit?gid=0#gid=0
 
 ## 🏗️ Project Structure
 
@@ -74,39 +67,6 @@ SmartGate-IoT/
 ├── run_gate_dashboard.py   # Gate Live dashboard (port 5001; Pi pushes events here)
 ```
 
-## 🚀 Quick Start
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/VbAishwarya/SmartGate-IoT.git
-   cd SmartGate-IoT
-   ```
-
-2. **Create virtual environment (recommended):**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the application:**
-   ```bash
-   python main.py
-   ```
-
-### Using the Application
-
-- Select `1` to run scenarios
-- Choose from 9 predefined scenarios
-- For custom plate testing, select scenario `8` and enter your plate number
-
-See [SETUP.md](SETUP.md) for detailed setup instructions.
 
 ### Contrib / hardware modules
 
@@ -323,11 +283,6 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Team
-
-- **Driver:** @Aishwarya V B
-- **Approver:** Prof. Christian Fiedler
-- **Contributors:** @Yash Kakadiya, @Dishva Italiya, @Jenish Sheladiya, @dhruvimoradiya01, @HimaPatel24, @Shubha, @pavanmgowda2497, @gourip682, @Giorgi Ubiria
 
 ---
 
